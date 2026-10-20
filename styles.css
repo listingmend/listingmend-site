@@ -1,0 +1,13 @@
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;font:1rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1d2521;background:#fff}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.25rem}a{color:#0b5d4b}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #1d2521;outline-offset:2px;box-shadow:0 0 0 5px #f2a900}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:9}
+header.site{border-bottom:1px solid #e3e8e5}header.site .wrap{display:flex;align-items:center;gap:.5rem;padding-top:.75rem;padding-bottom:.75rem}.brand{font-weight:700;font-size:1.15rem;text-decoration:none;color:#1d2521;display:flex;align-items:center;gap:.5rem}
+.hero{background:#eef6f3;padding:3rem 0}h1{font-size:clamp(1.8rem,6vw,2.75rem);line-height:1.15;margin:0 0 1rem}h2{font-size:1.5rem;margin:0 0 1rem}h3{margin:0 0 .25rem;font-size:1.15rem}
+.lead{font-size:1.15rem;max-width:40rem}.btn{display:inline-block;background:#0b5d4b;color:#fff;padding:.85rem 1.25rem;border-radius:.5rem;font-weight:600;text-decoration:none;border:0;font-size:1rem;cursor:pointer}.btn:hover{background:#08463a}
+section{padding:2.5rem 0}section+section{border-top:1px solid #e3e8e5}ul.checks{padding-left:1.2rem}ul.checks li{margin:.3rem 0}
+.cards{display:grid;gap:1rem}.card{border:1px solid #d5ddd9;border-radius:.75rem;padding:1.25rem}.price{font-size:1.5rem;font-weight:700;color:#0b5d4b;margin:.25rem 0 .5rem}
+ol.steps{padding-left:1.4rem}ol.steps li{margin:.4rem 0}dt{font-weight:700;margin-top:1rem}dd{margin:0}
+form{display:grid;gap:.9rem;max-width:32rem}label{font-weight:600;display:block;margin-bottom:.25rem}input,textarea{width:100%;padding:.7rem;border:1px solid #6b7a73;border-radius:.4rem;font:inherit}.hp{display:none}.small{font-size:.9rem;color:#46524c}
+footer{background:#1d2521;color:#e8eeeb;padding:1.5rem 0;font-size:.9rem}footer a{color:#bfe6d8}
+@media(min-width:48rem){.cards{grid-template-columns:repeat(3,1fr)}.hero{padding:4.5rem 0}}
+.todo{border:2px dashed #8a5a00;background:#fff8e6;padding:1rem;border-radius:.5rem}footer p{margin:.5rem 0}
