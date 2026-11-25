@@ -11,3 +11,16 @@ form{display:grid;gap:.9rem;max-width:32rem}label{font-weight:600;display:block;
 footer{background:#1d2521;color:#e8eeeb;padding:1.5rem 0;font-size:.9rem}footer a{color:#bfe6d8}
 @media(min-width:48rem){.cards{grid-template-columns:repeat(3,1fr)}.hero{padding:4.5rem 0}}
 .todo{border:2px dashed #8a5a00;background:#fff8e6;padding:1rem;border-radius:.5rem}footer p{margin:.5rem 0}
+
+header.site .wrap{flex-wrap:wrap;justify-content:space-between;gap:.75rem 1.25rem}
+.tagline{margin:0;font-size:.85rem;font-weight:400;color:#46524c;line-height:1.4}
+header.site .tagline a{color:#0b5d4b;font-weight:600;text-decoration:none;white-space:nowrap}
+header.site .tagline a:hover{text-decoration:underline}
+footer .tagline{color:#e8eeeb;margin:.5rem 0}
+footer .tagline a{color:#bfe6d8;font-weight:600;text-decoration:none;white-space:nowrap}
+footer .tagline a:hover{text-decoration:underline}
+.pilot-offer{border:1px solid #d5ddd9;border-radius:.75rem;padding:1.25rem 1.25rem 1.35rem;margin:0 0 1.5rem;background:#eef6f3}
+.pilot-offer h3{margin:0 0 .75rem;font-size:1.15rem}
+.pilot-offer ul{margin:.35rem 0 1rem;padding-left:1.2rem}
+.pilot-offer li{margin:.25rem 0}
+.card .badge{display:inline-block;background:#0b5d4b;color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.02em;padding:.2rem .55rem;border-radius:.35rem;margin:0 0 .55rem}
