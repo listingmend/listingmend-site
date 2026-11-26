@@ -26,15 +26,19 @@
   "description": "Google Business Profile setup, repair, suspension appeals and ongoing upkeep for local service businesses in Oklahoma and North Texas.",
   "address": {
     "@type": "PostalAddress",
-    "postOfficeBoxNumber": "6241",
     "addressLocality": "Lawton",
     "addressRegion": "OK",
-    "postalCode": "73506",
     "addressCountry": "US"
   },
   "areaServed": [
-    { "@type": "State", "name": "Oklahoma" },
-    { "@type": "AdministrativeArea", "name": "North Texas" }
+    {
+      "@type": "State",
+      "name": "Oklahoma"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "North Texas"
+    }
   ],
   "priceRange": "$129-$449",
   "paymentAccepted": "Credit card, debit card (Square)",
@@ -49,7 +53,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Starter Setup",
-          "description": "New or unclaimed Google Business Profile: claim, verify, and build out categories, services, photos, hours and description."
+          "description": "Create or claim a Google Business Profile, guided verification, categories, service area, hours, services, description, photos, and a review link with QR code."
         }
       },
       {
@@ -59,7 +63,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Listing Rescue",
-          "description": "Fix a broken or underperforming profile: wrong info, duplicates, bad categories, missing services, inconsistent listings across Google, Bing, Apple and Yelp."
+          "description": "Everything in Starter Setup, plus duplicate cleanup, suspension appeal help, and fixing business info on Apple, Bing and Yelp."
         }
       },
       {
@@ -69,7 +73,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Suspension Appeal",
-          "description": "Diagnose and appeal a suspended Google Business Profile, with the evidence package Google asks for."
+          "description": "Diagnose a suspended Google Business Profile and prepare the appeal and evidence Google asks for. Google makes the final decision."
         }
       },
       {
@@ -85,7 +89,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Keep-It-Clean",
-          "description": "Monthly upkeep: monitor for unwanted edits, keep hours and services current, posts and photo updates. Cancel anytime."
+          "description": "Monthly upkeep: four posts a month, review-reply drafts the owner approves, a monthly check-up, and suspension watch. Cancel anytime."
         }
       }
     ]
@@ -137,16 +141,16 @@
 <p><a class="btn" href="#contact">Claim a pilot spot →</a></p>
 </div>
 <div class="cards">
-<article class="card"><p class="badge">Pilot: $349</p><h3>Listing Rescue</h3><p class="price">$449 one-time</p><p>Everything in Starter, plus duplicate cleanup, suspension appeal help, and fixing your info on Apple, Bing, and Yelp. For suspended listings, I'll help you appeal; Google makes the final call.</p></article>
+<article class="card"><p class="badge">Pilot: $349</p><h3>Listing Rescue</h3><p class="price">$449 one-time</p><p>Everything in Starter, plus duplicate cleanup, suspension appeal help, and fixing your info on Apple, Bing, and Yelp.</p></article>
 <article class="card"><p class="badge">Pilot: $149</p><h3>Starter Setup</h3><p class="price">$249 one-time</p><p>Create or claim your profile, guided verification, categories, service area, hours, services, description, your photos, a review link and QR code.</p></article>
 <article class="card"><p class="badge">Pilot: $79/mo</p><h3>Keep-It-Clean</h3><p class="price">$129/month, cancel anytime</p><p>Four posts a month, review-reply drafts you approve, a monthly check-up, and suspension watch.</p></article>
 </div>
-<p>Suspension Appeal: $199 one-time. Payment is due in full up front.</p>
+<p>Only need an appeal? Suspension Appeal is $199 one-time, paid up front.</p>
 </div></section>
 
 <section aria-labelledby="upkeep"><div class="wrap">
 <h2 id="upkeep">Why Keep-It-Clean</h2>
-<p>I personally review your listing every month. Routine emails are answered by Mendy, my AI assistant, who can't change prices, issue refunds, or make commitments. Reply "human" anytime to reach me directly. You approve every post and review reply before it goes live. I watch for suspensions and help you appeal fast if one happens (I'll help you appeal; Google makes the final call). No long-term contract; cancel anytime.</p>
+<p>I personally review your listing every month. Routine emails are answered by Mendy, my AI assistant, who can't change prices, issue refunds, or make commitments. Reply "human" anytime to reach me directly. You approve every post and review reply before it goes live. I watch for suspensions and start the appeal fast if one happens. No long-term contract; cancel anytime.</p>
 </div></section>
 
 <section aria-labelledby="how"><div class="wrap">
@@ -192,6 +196,7 @@
 <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
 <div><label for="business">Business name</label><input id="business" name="business" autocomplete="organization"></div>
 <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div><label for="phone">Phone (optional, if you'd rather I call)</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
 <div><label for="message">What's going on with your listing?</label><textarea id="message" name="message" rows="4" required></textarea></div>
 <p class="small">Privacy: Your message reaches me through Web3Forms. I don't sell your information. We never ask for passwords or card numbers by email. See our <a href="privacy.html">privacy note</a>.</p>
 <div><button class="btn" type="submit">Send request</button></div>
@@ -201,9 +206,8 @@
 </main>
 <footer><div class="wrap">
 <p class="tagline">Based in Lawton, Oklahoma · Serving Oklahoma and North Texas · <a href="tel:+14054589758">(405) 458-9758</a></p>
-<p>Listing Mend · <a href="#contact">Contact</a> · <a href="self-check.html">Free self-check guide</a> · <a href="https://support.google.com/business/answer/7163406" target="_blank" rel="noopener">Working with a third party (Google's notice)</a> · Not affiliated with Google. Google is a trademark of Google LLC.</p>
-<p>I personally review your listing every month. Routine emails are answered by Mendy, my AI assistant, who can't change prices, issue refunds, or make commitments. Reply "human" anytime to reach me directly.</p>
-<p id="privacy"><strong>Privacy note:</strong> Listing Mend uses your business information only to set up and maintain your listings. We don't sell your information. We never ask for passwords or card numbers by email; you grant manager access instead. Support emails may be processed by an AI assistant. Support emails are kept for up to 24 months, and signed agreements, invoices, and payment records for 7 years for tax records, then deleted. Full details: see our <a href="privacy.html">privacy note</a>. To ask about or delete your info, email <a href="mailto:help@listingmend.com">help@listingmend.com</a>.</p>
+<p>Listing Mend · <a href="/">Home</a> · <a href="/#contact">Contact</a> · <a href="/self-check.html">Free self-check guide</a> · <a href="/privacy.html">Privacy note</a> · <a href="https://support.google.com/business/answer/7163406" target="_blank" rel="noopener">Working with a third party (Google's notice)</a> · Not affiliated with Google. Google is a trademark of Google LLC.</p>
+<p id="privacy">Your business information is used only to set up and maintain your listings, and it's never sold. Support emails may be answered by Mendy, my AI assistant; reply "human" to reach me. Details in the <a href="/privacy.html">privacy note</a>.</p>
 </div></footer>
 </body>
 </html>

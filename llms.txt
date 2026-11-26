@@ -1,27 +1,28 @@
 # Listing Mend
 
-> Google Business Profile setup, repair, suspension appeals and monthly upkeep for local service businesses (plumbers, HVAC, roofers, cleaners, contractors and similar) in Oklahoma and North Texas. Based in Lawton, OK. Work is done remotely; no office visits needed.
+> Google Business Profile setup, repair, suspension appeal help and monthly upkeep for local service businesses (plumbers, HVAC, roofers, cleaners, contractors and similar) in Oklahoma and North Texas. Run by Jon, based in Lawton, OK. All work is done remotely.
 
 ## Contact and booking
-- Email: help@listingmend.com (fastest; replies within one business day)
-- Phone/text: 405-458-9758
-- Mail: P.O. Box 6241, Lawton, OK 73506
-- To start: email the business name, city and a link to the Google listing (or say there isn't one). We reply with a free audit.
-- Payment: card via Square invoice. No contracts on monthly plans.
+- Start with a free 15-minute listing check: https://listingmend.com/#contact
+- Call or text: (405) 458-9758. Missed calls are returned within one business day.
+- Email: help@listingmend.com
+- How it works: free check, the owner adds Listing Mend as a Manager on the profile (no password needed), the work is done, the owner gets a handover checklist.
+- Payment: card, by Square invoice.
 
 ## Services and prices (USD)
-- Starter Setup ($249, one-time): claim, verify and fully build out a new or unclaimed Google Business Profile.
-- Listing Rescue ($449, one-time): fix wrong info, duplicates, bad categories, missing services, and inconsistent listings across Google, Bing, Apple Maps and Yelp.
-- Suspension Appeal ($199, one-time): diagnose and appeal a suspended profile.
-- Keep-It-Clean ($129/month): ongoing monitoring and upkeep. Cancel anytime.
+- Starter Setup: $249 one-time. Create or claim the profile, guided verification, categories, service area, hours, services, description, photos, review link and QR code.
+- Listing Rescue: $449 one-time. Everything in Starter Setup, plus duplicate cleanup, suspension appeal help, and fixing business info on Apple, Bing and Yelp.
+- Suspension Appeal: $199 one-time, paid up front.
+- Keep-It-Clean: $129/month, cancel anytime. Four posts a month, review-reply drafts the owner approves, a monthly check-up and suspension watch.
+- Pilot pricing for the first 5 clients: Starter $149, Rescue $349, Keep-It-Clean $79/month locked for 12 months. See https://listingmend.com/#pilot
 
 ## Service area
-All of Oklahoma and North Texas, starting with Lawton and Comanche County.
+Oklahoma and North Texas, starting with Lawton and Comanche County.
 
-## Good fit
-- Service-area businesses that get calls from Google Maps
-- Owners whose listing shows wrong hours, wrong phone, or was suspended
-- Businesses that want to show up correctly in AI assistants (ChatGPT, Gemini, Siri) as well as Google
+## Policies
+- The business owner keeps ownership of the profile.
+- No fake reviews. No ranking guarantees.
+- Google makes the final decision on suspensions and verification.
 
-## Not offered
-- Paid ads, website builds, or fake reviews
+## Free resource
+- Suspended or just unverified? A 10-point self-check, based on Google's help pages: https://listingmend.com/self-check.html
