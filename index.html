@@ -106,7 +106,8 @@
   },
   "hasMap": "https://maps.google.com/?cid=15102841345179544558",
   "sameAs": [
-    "https://maps.google.com/?cid=15102841345179544558"
+    "https://maps.google.com/?cid=15102841345179544558",
+    "https://www.linkedin.com/company/listingmend/"
   ],
   "openingHoursSpecification": [
     {
@@ -130,6 +131,38 @@
   ],
   "logo": "https://listingmend.com/logo.png",
   "image": "https://listingmend.com/logo.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most setups are done within a few days of getting access; Google sets the verification time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do you need from me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 30 minutes on a video call, your photos, and verification help (Google may ask you for a short video or a postcard)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you guarantee I'll rank #1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Anyone who promises that is guessing. I set it up right so you have a fair shot."
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -225,6 +258,15 @@
 <div><label for="business">Business name</label><input id="business" name="business" autocomplete="organization"></div>
 <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
 <div><label for="phone">Phone (optional, if you'd rather I call)</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+<div><label for="source">How did you hear about Listing Mend? (optional)</label><select id="source" name="heard_about">
+<option value="">Choose one</option>
+<option>Google search</option>
+<option>Google Maps</option>
+<option>AI assistant (ChatGPT, Google AI, Copilot, etc.)</option>
+<option>Email from Listing Mend</option>
+<option>Referral or word of mouth</option>
+<option>Other</option>
+</select></div>
 <div><label for="message">What's going on with your listing?</label><textarea id="message" name="message" rows="4" required></textarea></div>
 <p class="small">Privacy: Your message reaches me through Web3Forms. I don't sell your information. We never ask for passwords or card numbers by email. See our <a href="privacy.html">privacy note</a>.</p>
 <div><button class="btn" type="submit">Send request</button></div>
